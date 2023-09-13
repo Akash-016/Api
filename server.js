@@ -5,7 +5,7 @@ const asy_h=require('express-async-handler')
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const CHAT_GPT_API_KEY = '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';
+const CHAT_GPT_API_KEY = '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';
 
 app.use(express.urlencoded({ extended: false }))
 app.get('/',asy_h(async(req,res)=>{
